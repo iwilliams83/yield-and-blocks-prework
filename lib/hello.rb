@@ -7,7 +7,7 @@ def hello_t(array)
     yield array[i]
     i = i + 1
   end
-
+ array
 end
 
 hello_t(array) do |name|
